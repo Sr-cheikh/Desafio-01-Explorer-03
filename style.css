@@ -32,6 +32,7 @@ body::before {
 header{
     display: flex;
     flex-direction: column;
+    margin-top: 140px;
 }
 
 header h1{
@@ -141,4 +142,53 @@ fieldset legend{
     line-height: 26px;
 
     color: #5c7a72;
+}
+
+.col-3{
+    display: flex;
+    gap: 10px;
+}
+
+.col-3 > div:nth-child(1){
+    width: 100%;
+}
+
+.col-3 > div:nth-child(2){
+    margin-left: 22px;
+}
+
+footer{
+    background: #535971;
+
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 52px 71px;
+
+    margin-bottom: 100px;
+
+    border: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button{
+    height: 56px;
+
+    background: #FF5374;
+
+    border: 0;
+    border-radius: 8px;
+
+    font-family: 'staatliches';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #fff;
+}
+
+footer .button:hover{
+    background: #e0395b;
 }
